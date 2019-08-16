@@ -13,5 +13,6 @@ export declare class DashboardSrv {
     saveDashboard(options: any): any;
     handleSaveDashboardError(err: any): void;
     saveDashboardAs(): void;
-    getDashboardSrv(): DashboardSrv;
 }
+
+export declare function getDashboardSrv(): DashboardSrv;
